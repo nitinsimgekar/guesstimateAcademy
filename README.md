@@ -116,3 +116,9 @@ eg:  mvn archetype:generate -B -DarchetypeArtifactId=maven-archetype-archetype -
 * add ```edit``` before or after the variable for which needs to enter text
 * add ```lbl``` before or after the variable for which needs we need to read text
 * add ```btn``` before or after the variable for which needs to click
+
+### For More Details ###
+Contact 
+<br>Nitin Simgekar
+<br><b>+91 9160908000</b>
+<br>nitinsimgekar@gmail.com
