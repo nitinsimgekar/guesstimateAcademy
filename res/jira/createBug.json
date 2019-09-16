@@ -1,0 +1,37 @@
+{
+  "fields": {
+    "project": {
+      "key": "HOG"
+    },
+    "summary": "{{ summary }}",
+    "description": "{{ description }}",
+    "issuetype": {
+      "name": "Bug",
+      "Status": "Open",
+      "Priority": "High"
+    },
+    "customfield_11400": {
+      "value": "Major"
+    },
+    "customfield_11500": {
+      "value": "{{ Environment }}"
+    },
+    "customfield_10600": [
+      {
+        "value": "iOS"
+      }
+    ],
+    "customfield_11900": "{{ buildNo }}",
+    "customfield_12300": {
+      "value": "CHUG"
+    },
+    "customfield_12304": {
+      "value": "Non-Billable"
+    },
+    "components": [
+      {
+        "name": "Operator App"
+      }
+    ]
+  }
+}
