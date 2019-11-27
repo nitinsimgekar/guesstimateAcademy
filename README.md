@@ -11,6 +11,12 @@
 * Screen timeout should be set to max for android/iOS
 * Split keyboard is not supported for iOS
 * iDevice -> Settings -> Developer - Enable UI Automation should be enabled.
+* Add the following to bash_profile
+
+vim ~/.bash_profile
+export ANDROID_HOME=~/Library/Android/sdk
+export PATH=$ANDROID_HOME/emulator:$ANDROID_HOME/tools:$PATH
+source ~/.bash_profile
 
 ###	Tips & Troubleshooting: ###
 * Start eclipse from cmd line to revoke environmental properties in mac machines
