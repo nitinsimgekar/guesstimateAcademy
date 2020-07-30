@@ -54,10 +54,10 @@ public class Services {
 
     public void scrollRight(AppiumDriver<?> apDriver, MobileElement element) {
 
-        int leftXOffSet = (int) (element.getSize().getHeight() * 0.20);
+        int leftXOffSet = (int) (element.getSize().getWidth() * 0.20);
         int rightX = (int) (element.getSize().getWidth() * 0.80);
 
-        int middleY = element.getSize().getHeight() / 2;
+        int middleY = (element.getSize().getHeight() / 2) + element.getLocation().getY();
 
         TouchAction swipe = new TouchAction(apDriver).press(PointOption.point(rightX, middleY))
                 .waitAction(WaitOptions.waitOptions(Duration.ofMillis(1000)))
@@ -188,7 +188,7 @@ public class Services {
 
             String line = null;
             while ((line = reader.readLine()) != null) {
-                stringBuilder.append(line+"\n");
+                stringBuilder.append(line + "\n");
             }
 
             reader.close();

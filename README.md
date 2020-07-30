@@ -33,7 +33,8 @@ source ~/.bash_profile
 
 ###	Webdriver Config: ###
 * navigate to /usr/bin/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/  (OR)
-			/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/
+			/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/  (OR)
+			/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent/ (For versions above 1.15.0)
 * mkdir -p Resources/WebDriverAgent.bundle
 * sh ./Scripts/bootstrap.sh -d
 * open WebDriverAgent.xcodeproj using xcode
