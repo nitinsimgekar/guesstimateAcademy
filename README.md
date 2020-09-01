@@ -124,6 +124,16 @@ eg:  mvn archetype:generate -B -DarchetypeArtifactId=maven-archetype-archetype -
 * add ```lbl``` before or after the variable for which needs we need to read text
 * add ```btn``` before or after the variable for which needs to click
 
+### To Use Chrome DevTools on Android (Emulator) ###
+
+* In this context, "phone" is your emulator.
+
+* First you must enable debugging on your phone: Settings > About Phone > Build number > Tap it 7 times to become developer;
+
+* then: Settings > Developer Options > USB Debugging.
+
+* Then navigate to chrome://inspect/#devices. You should find the open tab on your phone there.
+
 ### For More Details ###
 Contact 
 <br>Nitin Simgekar
