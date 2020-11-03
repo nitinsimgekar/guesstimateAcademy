@@ -124,6 +124,11 @@ eg:  mvn archetype:generate -B -DarchetypeArtifactId=maven-archetype-archetype -
 * add ```lbl``` before or after the variable for which needs we need to read text
 * add ```btn``` before or after the variable for which needs to click
 
+### for webview/ionic ###
+https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md
+###### When starting the server
+appium --chromedriver-executable /path/to/my/chromedriver
+
 ### For More Details ###
 Contact 
 <br>Nitin Simgekar
