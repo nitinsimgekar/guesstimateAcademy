@@ -60,6 +60,4 @@ public class SettingsPage extends BasePageMobile {
         return this;
     }
 
-
-
 }

@@ -134,6 +134,18 @@ eg:  mvn archetype:generate -B -DarchetypeArtifactId=maven-archetype-archetype -
 
 * Then navigate to chrome://inspect/#devices. You should find the open tab on your phone there.
 
+### To Use Chrome DevTools on iOS (Emulator) ###
+
+https://stackoverflow.com/questions/41455862/how-do-i-open-developer-tools-on-ios-simulator/41457609
+
+* Open Safari and go to Preferences.
+* Under the Advanced tab, at the bottom, you'll see "Show Develop menu in menu bar". Make sure that is checked.
+* Once that is checked, you'll see a new menu bar item named "Develop" between "Bookmarks" and "Window" in Safari's menu.
+* Under the Develop menu, select "Simulator" and then select the site you want to debug. A new window with the developer tools will then pop up.
+
+If it does not work in Safari, Download https://developer.apple.com/safari/technology-preview/
+
+
 ### For More Details ###
 Contact 
 <br>Nitin Simgekar
