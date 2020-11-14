@@ -127,15 +127,11 @@ eg:  mvn archetype:generate -B -DarchetypeArtifactId=maven-archetype-archetype -
 ### To Use Chrome DevTools on Android (Emulator) ###
 
 * In this context, "phone" is your emulator.
-
 * First you must enable debugging on your phone: Settings > About Phone > Build number > Tap it 7 times to become developer;
-
 * then: Settings > Developer Options > USB Debugging.
-
 * Then navigate to chrome://inspect/#devices. You should find the open tab on your phone there.
 
 ### To Use Chrome DevTools on iOS (Emulator) ###
-
 https://stackoverflow.com/questions/41455862/how-do-i-open-developer-tools-on-ios-simulator/41457609
 
 * Open Safari and go to Preferences.
@@ -145,6 +141,10 @@ https://stackoverflow.com/questions/41455862/how-do-i-open-developer-tools-on-io
 
 If it does not work in Safari, Download https://developer.apple.com/safari/technology-preview/
 
+### for webview/ionic ###
+https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md
+###### When starting the server
+appium --chromedriver-executable /path/to/my/chromedriver
 
 ### For More Details ###
 Contact 
